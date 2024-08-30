@@ -50,34 +50,23 @@ The dataset was checked for relevance to the evaluation questions. Also, the use
 
 The dataset was thouroughly examined before proceeding to EDA:
 
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 200 entries, 0 to 199
-Data columns (total 5 columns):
-#### Column                  Non-Null Count  Dtype 
----  ------                  --------------  ----- 
- 0   CustomerID              200 non-null    int64 
- 1   Gender                  200 non-null    object
- 2   Age                     200 non-null    int64 
- 3   Annual Income (k$)      200 non-null    int64 
- 4   Spending Score (1-100)  200 non-null    int64 
-dtypes: int64(4), object(1)
-memory usage: 7.9+ KB
-
 #### Check for null values
 df.isnull().sum()
 
 #### Check for Duplicates
 df.duplicated().sum()
-- “Age Group column” was created  from “Age” column using **=IF(L2>50, "Adult", IF(L2<=30,"Youth",IF(L2>=31,"Young Adult")))**
-- 3 Pivot Tables were created from 4 columns: Age Group, Children, Income and Purchased Bike
-- Slicers, bar chart and line chart were used to visualize the Pivot Tables and build dashboard.
 
-## Analysis and Visualizations
-Pivot Tables were created from 4 columns: Age Group, Children, Income and Purchased Bike to summarise the desired data.
-To visualize the trends and patterns in the analysis, slicers, bar chart and line chart were used.
+## EDA/Analysis and Visualizations
 
-### Pivot Tables 
+- Using df.describe(), statistics of the numeric values was shown
 
+- Using sns.distplot, sns.kde, sns.boxplot, univariate analysis was on the demographical fields of the dataset
+
+- Using sns.scatterplot, bivariate analysis of Annual Income and Spending score.
+
+- Using sns.pairplot sns.heatmap, all the columns were used to show the relationship among the metrics.
+  
+ 
 ![](p_table.png)   | ![](p_table2.png)
 
 ### Findings:
