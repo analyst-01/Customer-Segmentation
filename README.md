@@ -65,9 +65,10 @@ df.duplicated().sum()
 - Using sns.scatterplot, bivariate analysis of Annual Income and Spending score.
 
 - Using sns.pairplot sns.heatmap, all the columns were used to show the relationship among the metrics.
-  
- 
-![](p_table.png)   | ![](p_table2.png)
+
+  Univariate              Bivariate                  Multivariate
+|----------------------|-------------------------|------------------------|
+![](Screeshot(72).png) | ![](Screenshot(71).png) | ![](Screenshot(69).png)|
 
 ### Findings:
 
