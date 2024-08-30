@@ -68,35 +68,30 @@ df.duplicated().sum()
 
 - Using sns.pairplot sns.heatmap, all the columns were used to show the relationship among the metrics.
 
-  Univariate                                    
+  **Univariate**                                    
 
-![](Screenshot(72).png)  
+![](https://github.com/analyst-01/Customer-Segmentation/blob/main/Screenshot%20(72).png)  
 
-Bivariate
-[](Screenshot(71).png)   
+**Bivariate**
 
-Multivariate
-[](Screenshot(69).png)  
+![](https://github.com/analyst-01/Customer-Segmentation/blob/main/Screenshot%20(71).png)   
+
+**Multivariate**
+![](https://github.com/analyst-01/Customer-Segmentation/blob/main/Screenshot%20(69).png)  
+
+You can get the complete project ![](https://github.com/analyst-01/Customer-Segmentation/blob/main/Untitled15.ipynb)
 
 ### Findings:
 
-- Out of 276 adults, 110 bought bikes. Out of 614 young adults, 332 bought bikes, and only 39 out of 110 youths bought bikes.
-- Adults and Youths with lower average incomes bought bikes while young adults with higher average incomes bought bikes.
-- It was observed that there were fewer children in the families of bike buyers compared to non-buyers. 
+![](https://github.com/analyst-01/Customer-Segmentation/blob/main/Screenshot%20(66).png)
 
-### Interactive Dashboard 
-![](dashboard.png)
+Based on the above cluster analysis, Cluster 2 has the highest income and highest spending score. The mean age of this cluster is 32.6 years.
 
-You can interact with the dashboard [here](BikeProject.xlsx).
 
 ## Conclusion and Recommendations
-
-From the dataset, many questions could still be answered. As for this analysis, here are my recommendations based on the findings:
-1. GTE Bikes' marketing campaigns should  be targeted at adults with low incomes, and young adults with high incomes.
-2. The chance of bike sales is high if low-income adults and high-income young adults with children are targeted in the campaign.
-3. It is recommended that the cost of marketing to people between 30 years and below should not be too high because they averagely earn lower income compared to adults and young adults. Moreover, out of 110 youths surveyed, only about 35% of them bought bikes.
+1. Target group would be Cluster 2 which has high Spending Score and high Income.
+2. 59% of Cluster 0 shoppers are women. It is young cluster of average age of 25 years. Although they have low income, they follow Cluster 2 in Spending Score. Market popular items for the young people to them.
 
 
- Problem Statement: understand the Target Customers for the marketing team to plan a strategy
-2. Context: Your boss wants you to identify the most important shopping groups based on income, age and the mall shopping score
-3. He wants the number of ideal groups with a label for each
+
+ 
