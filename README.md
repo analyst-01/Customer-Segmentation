@@ -32,6 +32,8 @@ My objective in this project is to divide the target market into approachable gr
 
 - Jupiter Notebook
 
+  ![](note.png)
+
 ## Skills/Concepts Demonstrated
 
 - Unsupervised Machine Learning
@@ -66,9 +68,15 @@ df.duplicated().sum()
 
 - Using sns.pairplot sns.heatmap, all the columns were used to show the relationship among the metrics.
 
-  Univariate              Bivariate                  Multivariate
-|----------------------|-------------------------|------------------------|
-![](Screeshot(72).png) | ![](Screenshot(71).png) | ![](Screenshot(69).png)|
+  Univariate                                    
+
+![](Screenshot(72).png)  
+
+Bivariate
+[](Screenshot(71).png)   
+
+Multivariate
+[](Screenshot(69).png)  
 
 ### Findings:
 
